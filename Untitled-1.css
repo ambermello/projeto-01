@@ -1,0 +1,102 @@
+/* Reset de estilo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navegação */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Seções */
+section {
+    padding: 40px;
+    margin: 20px 0;
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+section ul li {
+    margin: 10px 0;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Layout Responsivo */
+@media (max-width: 768px) {
+    nav ul {
+        display: block;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
